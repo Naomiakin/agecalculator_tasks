@@ -1,0 +1,68 @@
+
+body {
+    background: linear-gradient(to bottom, rgb(128, 0, 128), rgb(200, 162, 200));
+    height: 100vh; /* Full height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Center content and give div a soft look */
+.div {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent effect */
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    width: 50%;
+}
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+/* Shorter and rounded h2 */
+h2 {
+    background-color: rgb(110, 138, 128);
+    border-radius: 30px;
+    padding: 10px 30px;
+    padding-left: 100px;
+    
+    display: inline-block; /* Keeps it short */
+    border: 5px solid white; /* Softer border */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Style input field */
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 80%;
+    margin-top: 10px;
+}
+
+/* Center the paragraph and button */
+p, button {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Style button */
+button {
+    background-color: rgb(110, 138, 128);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(90, 120, 110);
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Naomis age calculator</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="div">
+      <h2>Age Calculator</h2>
+      <label for="dateofbirth">Enter your Date of Birth:</label><br />
+      <input
+        type="date"
+        id="dateofbirth"
+        step="1"
+        min="1900-01-01"
+        max="2025-12-31"
+      />
+
+      <button onclick="calculateAge()">Calculate Age</button><br />
+    </div>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
