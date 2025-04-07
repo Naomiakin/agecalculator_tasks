@@ -26,7 +26,8 @@ h2 {
     background-color: rgb(110, 138, 128);
     border-radius: 30px;
     padding: 10px 30px;
-    padding-left: 100px;
+    padding-left: 45px;
+    padding-right:45px;
     
     display: inline-block; /* Keeps it short */
     border: 5px solid white; /* Softer border */
@@ -57,7 +58,8 @@ button {
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 10px;
+    border: 5px solid white;
+    border-radius: 30px;
     cursor: pointer;
     font-weight: bold;
     transition: background 0.3s ease-in-out;
